@@ -11,5 +11,5 @@ Steps:
 
 1) compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
-    - rocc  ( https://github.com/saramortara/rocc) and 
-    - CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
+    -rocc  (https://github.com/saramortara/rocc) and 
+    -CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
