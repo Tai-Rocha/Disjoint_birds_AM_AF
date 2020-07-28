@@ -17,6 +17,6 @@ Steps:
     
 2. Climatic variables. We use two dataset of climatic variables.
  
-      * Paleoclim: Describe beter why I choose this (in this case is           about resoltuion te time periods available, the most complete          and recent data)
+      * Paleoclim: Describe beter why I choose this (in this case is about resoltuion te time periods                 available, the most complete and recent data)
       * Chelsa:  
     
