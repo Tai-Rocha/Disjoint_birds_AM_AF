@@ -1,9 +1,7 @@
----
-title: "Disjoint birds of Amazon and Atlantic forests"
-author: "Tainá Rocha"
-date: "28/07/2020"
+Title: "Disjoint birds of Amazon and Atlantic forests"
+Author: "Tainá Rocha"
+Date: "28/07/2020"
 output: html_document
----
 
 This is a repository of niche analysis for disjoint Amazon and Atlantic forest birds.
 
@@ -11,12 +9,12 @@ Steps:
 
 1. compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
-    # rocc (https://github.com/saramortara/rocc)
+    - rocc (https://github.com/saramortara/rocc)
     
-    # CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
+    - CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
     
 2. Climatic variables. We use two dataset of climatic variables.
  
-      # Paleoclim: Describe beter why I choose this (in this case is about resoltuion te time periods      available, the most complete and recent data)
-      # Chelsa:  
+      - Paleoclim: Describe beter why I choose this (in this case is about resoltuion te time periods      available, the most complete and recent data)
+      - Chelsa:  
     
