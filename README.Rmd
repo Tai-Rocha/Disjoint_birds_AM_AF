@@ -6,8 +6,9 @@ output: html_document
 ---
 
 This is a repository of niche analysis for disjoint Amazon and Atlantic forest birds.
+
 Steps:
 
-1- compiled and cleaning occurrence data for species.
+1) compiled and cleaning occurrence data for species.
 
     Here we use rocc workflow ( https://github.com/saramortara/rocc) and CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
