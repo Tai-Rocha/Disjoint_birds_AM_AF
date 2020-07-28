@@ -1,11 +1,10 @@
-Title: "Disjoint birds of Amazon and Atlantic forests"
-Author: "Tainá Rocha"
-Date: "28/07/2020"
-output: html_document
+##############################################################################################
+# Title: "Disjoint birds of Amazon and Atlantic forests"
+# Author: "Tainá Rocha"
+# This is a repository of niche analysis for disjoint Amazon and Atlantic forest birds.
+##############################################################################################
 
-This is a repository of niche analysis for disjoint Amazon and Atlantic forest birds.
-
-Steps:
+# Steps:
 
 1. compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
