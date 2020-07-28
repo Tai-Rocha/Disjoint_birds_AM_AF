@@ -17,3 +17,20 @@
       - Paleoclim: Describe beter why I choose this (in this case is about resoltuion te time periods      available, the most complete and recent data)
       - Chelsa:  
     
+3. Exploratory Analysis 
+
+      - Extract enviromental values values to point 
+      - Build a principal component analysis (PCA)
+      - Select the most imporant variables for species
+      
+4. Niche analysis 
+
+      - Niche similarity using humbolds package (https://github.com/jasonleebrown/humboldt)
+      
+5. Ecological Niche models using two different approaches and two different workflows
+
+      - modler package: using diffents algorithms to map niches suitablity  (https://github.com/Model-R,     https://github.com/Model-R/modleR).
+      
+      - ntoolb package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/) 
+
+      
