@@ -9,9 +9,11 @@
 
 1. compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
-    - spocc (https://github.com/saramortara/rocc)
+    - spocc (https://github.com/ropensci/spocc)
     
-    - to define    
+    
+    
+    - rocc (https://github.com/saramortara/rocc)
 2. Climatic variables. We use two dataset of climatic variables.
  
       - Paleoclim: Describe beter why I choose this (in this case is about resoltuion te time periods      available, the most complete and recent data)
