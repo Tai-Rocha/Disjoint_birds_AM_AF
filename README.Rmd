@@ -1,29 +1,28 @@
-##############################################################################################
+###################################################################################
 # Title: "Disjoint birds of Amazon and Atlantic forests"
 # Author: "Tainá Rocha"
 # This is a repository of niche analysis for disjoint Amazon and Atlantic forest birds.
-##############################################################################################
-# Ps.: In progress
+###################################################################################
+# Ps.: In progress										
 
 # Steps:
 
 1. compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
-    - spocc (https://github.com/ropensci/spocc)
-    
-    
-    
     - rocc (https://github.com/saramortara/rocc)
+    
+    - CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
+    
 2. Climatic variables. We use two dataset of climatic variables.
  
-      - Paleoclim: Describe beter why I choose this (in this case is about resoltuion te time periods      available, the most complete and recent data)
+      - Paleoclim: Describe beter why I choose this (in this case is about resolution the time periods available, the most complete and recent data)
       - Chelsa:  
     
 3. Exploratory Analysis 
 
-      - Extract enviromental values values to point 
+      - Extract environmental values values to point 
       - Build a principal component analysis (PCA)
-      - Select the most imporant variables for species
+      - Select the most important variables for species
       
 4. Niche analysis 
 
@@ -31,8 +30,6 @@
       
 5. Ecological Niche models using two different approaches and two different workflows
 
-      - modler package: using diffents algorithms to map niches suitablity  (https://github.com/Model-R,     https://github.com/Model-R/modleR).
+      - modler package: using different algorithms to map niches suitability  (https://github.com/Model-R,     https://github.com/Model-R/modleR).
       
-      - ntoolb package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/) 
-
-      
+      - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
