@@ -15,42 +15,71 @@ library(spocc)
 lv_gbif <- occ(query = 'Lipaugus vociferans', 
                from = 'gbif', 
                has_coords= TRUE, 
-               limit = 7000)
+               limit = 24000
+               )
 
 lv_gbif
 lv_gbif$gbif
 
+### Convert occdata classe object (i.e lv_gbif) into data.frame
+
+lipaugus_gbif_raw <- occ2df(lv_gbif, what = "data")
+
+## Write table
+write.table(lipaugus_gbif_raw, "./data/L_vociferans/sp_records/RAW/gbif_raw/lv_gbif_raw.txt", dec = ".")
 
 #### e-bird
 
 lv_ebird <- occ(query = 'Lipaugus vociferans', 
                 from = 'ebird', 
-                ebirdopts = lilv(loc='BR', key="t0nsff58p2ki"),
+                ebirdopts = list(loc='BR', key="t0nsff58p2ki"),
                 has_coords= TRUE,
-                limit = 7000)
+                limit = 24000)
 
 lv_ebird
 lv_ebird$ebird
+
+### Convert occdata classe object (i.e st_ebird) into data.frame
+lipaugus_ebird_raw <- occ2df(lv_ebird, what = "data")
+
+## Write table
+write.table(lipaugus_ebird_raw, "./data/L_vociferans/sp_records/RAW/e_bird_raw/lv_ebird_raw.txt", dec = ".")
+
 
 #### Idigbio
 
 lv_idigbio <- occ( query = 'Lipaugus vociferans', 
                    from = 'idigbio', 
                    has_coords= TRUE, 
-                   limit = 7000)
+                   limit = 24000)
 
 lv_idigbio
 lv_idigbio$idigbio
 
-#### I naturalilv 
+### Convert occdata classe object (i.e st_idigbio) into data.frame
+
+lipaugus_idigbio_raw <- occ2df(lv_idigbio, what = "data")
+
+## Write table
+
+write.table(lipaugus_idigbio_raw, "./data/L_vociferans/sp_records/RAW/idigbio_raw/lv_idigbio_raw.txt", dec = ".")
+
+#### I naturalist 
 
 lv_inat <- occ( query = 'Lipaugus vociferans', 
                 from = 'inat', 
                 has_coords= TRUE, 
-                limit = 7000)
+                limit = 24000)
 
 lv_inat
 lv_inat$inat
+
+### Convert occdata classe object (i.e lv_inat) into data.frame
+lipaugus_inat_raw <- occ2df(lv_inat, what = "data")
+
+## Write table
+
+write.table(lipaugus_inat_raw, "./data/L_vociferans/sp_records/RAW/inat_raw/lv_inat_raw.txt", dec = ".")
 
 
 ######## vertnet
@@ -58,7 +87,7 @@ lv_inat$inat
 lv_vertnet <- occ( query = 'Lipaugus vociferans', 
                    from = 'vertnet', 
                    has_coords= TRUE, 
-                   limit = 7000)
+                   limit = 24000)
 
 lv_vertnet
 lv_vertnet$vertenet
@@ -95,7 +124,7 @@ st_ebird <- occ(query = 'Schiffornis turdina',
 st_ebird
 st_ebird$ebird
 
-### Convert occdata classe object (i.e st_gbif) into data.frame
+### Convert occdata classe object (i.e st_ebird) into data.frame
 
 turdina_ebird_raw <- occ2df(st_ebird, what = "data")
 
@@ -113,6 +142,14 @@ st_idigbio <- occ( query = 'Schiffornis turdina',
 st_idigbio
 st_idigbio$idigbio
 
+### Convert occdata classe object (i.e st_idigbio) into data.frame
+
+turdina_idigbio_raw <- occ2df(st_idigbio, what = "data")
+
+## Write table
+
+write.table(turdina_idigbio_raw, "./data/S_turdina/sp_records/RAW/idigbio_raw/st_idigbio_raw.txt", dec = ".")
+
 #### I naturalist 
 
 st_inat <- occ( query = 'Schiffornis turdina', 
@@ -123,14 +160,13 @@ st_inat <- occ( query = 'Schiffornis turdina',
 st_inat
 st_inat$inat
 
+### Convert occdata classe object (i.e st_inat) into data.frame
 
-######## vertnet
+turdina_inat_raw <- occ2df(st_inat, what = "data")
 
-st_vertnet <- occ( query = 'Schiffornis turdina', 
-                from = 'vertnet', 
-                has_coords= TRUE, 
-                limit = 7000)
+## Write table
 
-st_vertnet
-st_vertnet$vertenet
+write.table(turdina_inat_raw, "./data/S_turdina/sp_records/RAW/inat_raw/st_inat_raw.txt", dec = ".")
+
+
 
