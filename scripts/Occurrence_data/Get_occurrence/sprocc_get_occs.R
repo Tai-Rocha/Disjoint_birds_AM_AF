@@ -169,4 +169,90 @@ turdina_inat_raw <- occ2df(st_inat, what = "data")
 write.table(turdina_inat_raw, "./data/S_turdina/sp_records/RAW/inat_raw/st_inat_raw.txt", dec = ".")
 
 
+#### Xiphorhynchus guttatus
+
+#### GBIF
+
+xg_gbif <- occ(query = 'Xiphorhynchus guttatus', 
+               from = 'gbif', 
+               has_coords= TRUE, 
+               limit = 25000
+)
+
+xg_gbif
+xg_gbif$gbif
+
+### Convert occdata classe object (i.e xg_gbif) into data.frame
+
+guttatus_gbif_raw <- occ2df(xg_gbif, what = "data")
+
+## Write table
+write.table(guttatus_gbif_raw, "./data/X_guttatus/sp_records/RAW/gbif_raw/xg_gbif_raw.txt", dec = ".")
+
+#### e-bird
+
+xg_ebird <- occ(query = 'Xiphorhynchus guttatus', 
+                from = 'ebird', 
+                ebirdopts = list(loc='BR', key="t0nsff58p2ki"),
+                has_coords= TRUE,
+                limit = 10000)
+
+xg_ebird
+xg_ebird$ebird
+
+### Convert occdata classe object (i.e st_ebird) into data.frame
+guttatus_ebird_raw <- occ2df(xg_ebird, what = "data")
+
+## Write table
+write.table(guttatus_ebird_raw, "./data/X_guttatus/sp_records/RAW/e_bird_raw/xg_ebird_raw.txt", dec = ".")
+
+
+#### Idigbio
+
+xg_idigbio <- occ( query = 'Xiphorhynchus guttatus', 
+                   from = 'idigbio', 
+                   has_coords= TRUE, 
+                   limit = 25000)
+
+xg_idigbio
+xg_idigbio$idigbio
+
+### Convert occdata classe object (i.e st_idigbio) into data.frame
+
+guttatus_idigbio_raw <- occ2df(xg_idigbio, what = "data")
+
+## Write table
+
+write.table(guttatus_idigbio_raw, "./data/X_guttatus/sp_records/RAW/idigbio_raw/xg_idigbio_raw.txt", dec = ".")
+
+#### I naturalist 
+
+xg_inat <- occ( query = 'Xiphorhynchus guttatus', 
+                from = 'inat', 
+                has_coords= TRUE, 
+                limit = 25000)
+
+xg_inat
+xg_inat$inat
+
+### Convert occdata classe object (i.e xg_inat) into data.frame
+guttatus_inat_raw <- occ2df(xg_inat, what = "data")
+
+## Write table
+
+write.table(guttatus_inat_raw, "./data/X_guttatus/sp_records/RAW/inat_raw/xg_inat_raw.txt", dec = ".")
+
+
+######## vertnet
+
+xg_vertnet <- occ( query = 'Xiphorhynchus guttatus', 
+                   from = 'vertnet', 
+                   has_coords= TRUE, 
+                   limit = 10000)
+
+xg_vertnet
+xg_vertnet$vertenet
+
+####
+
 
