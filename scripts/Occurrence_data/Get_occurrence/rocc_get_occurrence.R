@@ -1,5 +1,5 @@
 #######################################
-## GEt occurence from speciesLink
+## Get occurence from speciesLink
 ## rocc package (Mortara, S)
 ## Author: Tainá Rocha
 #######################################
