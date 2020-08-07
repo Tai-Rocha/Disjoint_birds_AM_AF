@@ -1,8 +1,8 @@
-###################################################################################
+##########################################################################################
 # Title: "Disjoint birds of Amazon and Atlantic forests"
 # Author: "Tainá Rocha"
 # This is a repository of niche analysis for disjoint Amazon and Atlantic forest birds.
-###################################################################################
+##########################################################################################
 # Ps.: In progress										
 
 # Steps:
@@ -30,13 +30,10 @@
       
 5. Ecological Niche models using two different approaches and two different workflows
 
-      - modler package: using different algorithms to map niches suitability  (https://github.com/Model-R,     https://github.com/Model-R/modleR).
+      - modler package: using different algorithms to map niches suitability  (https://github.com/Model-R , https://github.com/Model-R/modleR).
       
       - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
-      
-      
-![GitHub Logo](./docs/Workflow for niche and molecular analysis.svg)
-Format: ![Alt Text](url) 
+     
+##############################################################################################################
 
-
-![alt text](https://github.com/Tai-Rocha/Disjoint_birds_AM_AF/blob/master/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(5).pngraw=true "Workflow")
+https://github.com/Tai-Rocha/Disjoint_birds_AM_AF/blob/master/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(6).png
