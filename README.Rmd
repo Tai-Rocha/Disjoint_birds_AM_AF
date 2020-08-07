@@ -35,6 +35,11 @@
       - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
       
       
+      
+![github-small](https://user-images.githubusercontent.com/11633554/89681997-5c331100-d8cc-11ea-915d-1e6793f51b9b.png)
+
+      
+      
 ![GitHub Logo](./docs/Workflow for niche and molecular analysis.svg)
 Format: ![Alt Text](url) 
 
