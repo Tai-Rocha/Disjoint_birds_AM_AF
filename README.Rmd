@@ -34,8 +34,7 @@
       - modler package: using different algorithms to map niches suitability  (https://github.com/Model-R,     https://github.com/Model-R/modleR).
       
       - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
+     
+##############################################################################################################################################################      
       
-      
-![Workflow for niche and molecular analysis (6)](https://user-images.githubusercontent.com/11633554/89682328-ef6c4680-d8cc-11ea-9f99-15f8de398815.png)
-
-      
+![Workflow for niche and molecular analysis (6)](https://user-images.githubusercontent.com/11633554/89682518-3e19e080-d8cd-11ea-9332-0e1f58ce63e5.png)
