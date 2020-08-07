@@ -39,4 +39,4 @@
 Format: ![Alt Text](url) 
 
 
-![alt text](https://github.com/Tai-Rocha/Disjoint_birds_AM_AF/blob/master/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(5).pngraw=true)
+![alt text](https://github.com/Tai-Rocha/Disjoint_birds_AM_AF/blob/master/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(5).pngraw=true "Workflow")
