@@ -1,7 +1,4 @@
 
-
-
-
 ###################################################################################
 # Title: "Disjoint birds of Amazon and Atlantic forests"
 # Author: "Tainá Rocha"
@@ -39,15 +36,6 @@
       - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
       
       
-![github-small](https://user-images.githubusercontent.com/11633554/89681997-5c331100-d8cc-11ea-915d-1e6793f51b9b.png)
+![Workflow for niche and molecular analysis (6)](https://user-images.githubusercontent.com/11633554/89682328-ef6c4680-d8cc-11ea-9f99-15f8de398815.png)
 
       
-![github-small](https://user-images.githubusercontent.com/11633554/89681997-5c331100-d8cc-11ea-915d-1e6793f51b9b.png)
-
-      
-      
-![GitHub Logo](./docs/Workflow for niche and molecular analysis.svg)
-Format: ![Alt Text](url) 
-
-
-![alt text](https://github.com/Tai-Rocha/Disjoint_birds_AM_AF/blob/master/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(5).pngraw=true "Workflow")
