@@ -8,7 +8,7 @@
 
 library(spocc)
 
-#### Lipaugus vociferans
+#### Lipaugus vociferans 
 
 #### GBIF
 
@@ -23,7 +23,9 @@ lv_gbif$gbif
 
 ### Convert occdata classe object (i.e lv_gbif) into data.frame
 
-lipaugus_gbif_raw <- occ2df(lv_gbif, what = "data")
+lv_gbif_raw <- occ2df(lv_gbif$gbif, what = "data")
+
+lipaugus_gbif_raw <- apply(turdina_gbif_raw,2,as.character)
 
 ## Write table
 write.table(lipaugus_gbif_raw, "./data/L_vociferans/sp_records/RAW/gbif_raw/lv_gbif_raw.txt", dec = ".")
@@ -58,11 +60,13 @@ lv_idigbio$idigbio
 
 ### Convert occdata classe object (i.e st_idigbio) into data.frame
 
-lipaugus_idigbio_raw <- occ2df(lv_idigbio, what = "data")
+lv_idigbio_raw <- occ2df(lv_idigbio$idigbio, what = "data")
+
+lv_idigbio_raw <- apply(lv_idigbio_raw,2,as.character)
 
 ## Write table
 
-write.table(lipaugus_idigbio_raw, "./data/L_vociferans/sp_records/RAW/idigbio_raw/lv_idigbio_raw.txt", dec = ".")
+write.table(lv_idigbio_raw, "./data/L_vociferans/sp_records/RAW/idigbio_raw/lv_idigbio_raw.txt", dec = ".")
 
 #### I naturalist 
 
@@ -75,7 +79,9 @@ lv_inat
 lv_inat$inat
 
 ### Convert occdata classe object (i.e lv_inat) into data.frame
-lipaugus_inat_raw <- occ2df(lv_inat, what = "data")
+lv_inat_raw <- occ2df(lv_inat$inat, what = "data")
+
+lv_inat_raw <- apply(lv_inat_raw,2,as.character)
 
 ## Write table
 
@@ -107,17 +113,22 @@ st_gbif$gbif
 
 ### Convert occdata classe object (i.e st_gbif) into data.frame
 
-turdina_gbif_raw <- occ2df(st_gbif, what = "data")
+turdina_gbif_raw <- occ2df(st_gbif$gbif, what = "data")
+
+turdina_gbif_raw <- apply(turdina_gbif_raw,2,as.character)
+
 
 ## Write table
-write.table(turdina_gbif_raw, "./data/S_turdina/sp_records/RAW/gbif_raw/st_gbif_raw.txt", dec = ".")
+write.table(turdina_gbif_raw, "./data/S_turdina/sp_records/RAW/gbif_raw/st_gbif_raw.txt", sep = " ", dec = ".")
 
 
 #### e-bird
 
 st_ebird <- occ(query = 'Schiffornis turdina', 
                 from = 'ebird', 
-                ebirdopts = list(loc='BR', key="t0nsff58p2ki"),
+                ebirdopts = list(key="t0nsff58p2ki"
+                                 #loc='BR'
+                                 ),
                 has_coords= TRUE,
                 limit = 7000)
 
@@ -125,8 +136,9 @@ st_ebird
 st_ebird$ebird
 
 ### Convert occdata classe object (i.e st_ebird) into data.frame
+turdina_ebird_raw <- occ2df(st_ebird$ebird, what = "data")
 
-turdina_ebird_raw <- occ2df(st_ebird, what = "data")
+turdina_ebird_raw <- apply(turdina_ebird_raw,2,as.character)
 
 ## Write table
 write.table(turdina_ebird_raw, "./data/S_turdina/sp_records/RAW/e_bird_raw/st_ebird_raw.txt", dec = ".")
@@ -144,11 +156,14 @@ st_idigbio$idigbio
 
 ### Convert occdata classe object (i.e st_idigbio) into data.frame
 
-turdina_idigbio_raw <- occ2df(st_idigbio, what = "data")
+turdina_idigbio_raw <- occ2df(st_idigbio$idigbio, what = "data")
+
+turdina_idigbio_raw <- apply(turdina_idigbio_raw,2,as.character)
+
 
 ## Write table
 
-write.table(turdina_idigbio_raw, "./data/S_turdina/sp_records/RAW/idigbio_raw/st_idigbio_raw.txt", dec = ".")
+write.table(turdina_idigbio_raw, "./data/S_turdina/sp_records/RAW/idigbio_raw/st_idigbio_raw.txt", sep=" ", dec = ".")
 
 #### I naturalist 
 
@@ -162,11 +177,15 @@ st_inat$inat
 
 ### Convert occdata classe object (i.e st_inat) into data.frame
 
-turdina_inat_raw <- occ2df(st_inat, what = "data")
+turdina_inat_raw <- occ2df(st_inat$inat, what = "data")
+
+turdina_inat_raw <- apply(turdina_inat_raw,2,as.character)
 
 ## Write table
 
-write.table(turdina_inat_raw, "./data/S_turdina/sp_records/RAW/inat_raw/st_inat_raw.txt", dec = ".")
+write.table(turdina_inat_raw, "./data/S_turdina/sp_records/RAW/inat_raw/st_inat_raw.txt", sep = " ", dec= ".")
+
+write.csv(turdina_inat_raw, "./data/S_turdina/sp_records/RAW/inat_raw/st_inat_raw.csv", sep = "\t", dec= ".")
 
 
 #### Xiphorhynchus guttatus
