@@ -7,7 +7,7 @@
 
 # Steps for niche analysis :
 
-1. compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
+1. Compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
     - rocc (https://github.com/saramortara/rocc)
     
@@ -34,10 +34,13 @@
       
       - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
       
+ 6. nicheEvol
+      
 # Steps for molecular analysis (Nicólas Ordax) 
 
+1. Compiled sequences from genebank....
 
-
+2. Phyloegetic tree... 
      
 ##############################################################################################
 
