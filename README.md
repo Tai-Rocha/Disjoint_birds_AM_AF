@@ -37,7 +37,7 @@
       
  6. nicheEvol
       
-# Steps for molecular analysis (Nicólas Ordax) 
+# Steps for molecular analysis (@NicoOrdax Nicólas Ordax) 
 
 1. Compiled sequences from genebank....
 
