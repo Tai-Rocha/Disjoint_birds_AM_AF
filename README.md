@@ -2,7 +2,7 @@
 # Title: "Disjoint birds of Amazon and Atlantic forests"
 # Author: "Tainá Rocha"
 # This is a repository of niche and molecular analysis for disjoint Amazon and Atlantic forest birds.
-##############################################################################################
+####################################################################################
 # Ps.: In progress										
 
 # Steps:
