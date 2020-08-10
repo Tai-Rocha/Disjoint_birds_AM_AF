@@ -53,6 +53,6 @@ Gray boxs for datasources.
 
 Yellow boxes for analysis.
 
-Blue boxs for R packages and softwares to process da data.
+Blue boxs for R packages and softwares to process the data.
 
 
