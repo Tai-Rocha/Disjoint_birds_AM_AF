@@ -5,7 +5,7 @@
 ##############################################################################################
 # Ps.: In progress										
 
-# Steps:
+# Steps for niche analysis :
 
 1. compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
@@ -33,6 +33,11 @@
       - modler package: using different algorithms to map niches suitability  (https://github.com/Model-R , https://github.com/Model-R/modleR).
       
       - ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
+      
+# Steps for molecular analysis (Nicólas Ordax) 
+
+
+
      
 ##############################################################################################
 
