@@ -49,10 +49,10 @@
 
 
 
-Gray boxs represent datasources.
+Gray boxs for datasources.
 
-Yellow boxes represent the anlysis.
+Yellow boxes for analysis.
 
-Blue boxs represent R packages and softwares to process da data.
+Blue boxs for R packages and softwares to process da data.
 
 
