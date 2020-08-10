@@ -1,11 +1,11 @@
-######################################################################################################
-# Title: "Disjoint birds of Amazon and Atlantic forests, a biogeography perspective"
-# Author: "Tainá Rocha"
-# This is a repository of niche and molecular analysis for disjoint Amazon and Atlantic forest birds.
-######################################################################################################
-# Ps.: In progress										
+#########################################################################################################
+- Title: "Disjoint birds of Amazon and Atlantic forests, a biogeography perspective"
+- Author: "Tainá Rocha"
+- This is a repository of niche and molecular analysis for disjoint Amazon and Atlantic forest birds.
+#########################################################################################################
+- Ps.: In progress										
 
-# Steps for niche analysis :
+- Steps for niche analysis :
 
 1. Compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
 
