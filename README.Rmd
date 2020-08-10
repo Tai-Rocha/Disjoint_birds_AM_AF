@@ -36,4 +36,4 @@
      
 ##############################################################################################################
 
-![Alt text](https://github.com/Tai-Rocha/Disjoint_birds_AM_AF/blob/raw/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(6).png?raw=true)
+![](/Disjoint_birds_AM_AF/blob/master/docs/Workflow%20for%20niche%20and%20molecular%20analysis%20(6).png)
