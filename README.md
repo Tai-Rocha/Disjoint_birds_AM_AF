@@ -40,7 +40,7 @@
  
     - [ ] study this package (https://github.com/hannahlowens/nichevol)
       
-## Steps for molecular analysis (@NicoOrdax Nicólas Ordax) 
+## Steps for molecular analysis @NicoOrdax 
 
 1. Compiled sequences from genebank....
 
