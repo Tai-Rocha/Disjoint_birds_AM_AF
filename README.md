@@ -8,35 +8,39 @@
 										
 ## Steps for niche analysis :
 
-1. Compiled and cleaning occurrence data for species. Here we use 2 workflows for this step:
+1. Compiled occurrence records for species. Here we use 2 workflows for this step:
 
-    - [ ] rocc (https://github.com/saramortara/rocc)
-  
+    - [ ] rocc (https://github.com/saramortara/rocc)  
     - [ ] spocc (https://github.com/ropensci/spocc)
     
-    - [ ] CoordinateCleaner (https://github.com/ropensci/CoordinateCleaner)
+2. Clean occurence (R base funtions)  
+
+    - [ ] Remove wrong records
+    - [ ] Remove too old records
+    - [ ] Remove duplicates  
+    - [ ] Specialist check
     
-2. Climatic variables. We use two dataset of climatic variables.
+3. Climatic variables. We use two dataset of climatic variables.
  
     - [ ] Paleoclim: http://www.paleoclim.org/ (The most complete and recent data with better resolution)
     - [ ] Chelsa: https://chelsa-climate.org/ 
     
-3. Exploratory Analysis 
+4. Exploratory Analysis 
 
     - [ ]  Extract environmental values values to point 
     - [ ]  Build a principal component analysis (PCA)
     - [ ]  Select the most important variables for species
       
-4. Niche analysis 
+5. Niche analysis 
 
     - [ ]  Niche similarity using humbolds package (https://github.com/jasonleebrown/humboldt)
       
-5. Ecological Niche models using two different approaches and two different workflows
+6. Ecological Niche models using two different approaches and two different workflows
 
     - [ ] modler package: using different algorithms to map niches suitability  (https://github.com/Model-R , https://github.com/Model-R/modleR).      
     - [ ] ntbox package: using using ellipsoids to model niches suitability (https://github.com/luismurao/ntbox/)
       
- 6. nicheEvol
+ 7. nicheEvol
  
     - [ ] study this package (https://github.com/hannahlowens/nichevol)
       
