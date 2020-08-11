@@ -68,8 +68,9 @@
 
 
 
-###### Gray boxs for datasources
-###### Yellow boxes for analysis
+###### Light gray boxs for datasources
+###### Gray box for filtered data
 ###### Blue boxs for R packages and softwares to process the data
+###### Yellow boxes for analysis
 
 
