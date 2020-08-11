@@ -47,7 +47,7 @@
     - [ ] *Lipaugus vociferans*
     - [ ] *Schiffornis tudina*
     - [ ] *Xiphorhynchus guttatus*
-    - [ ] *Xiphorhynchus guttatoides 
+    - [ ] *Xiphorhynchus guttatoides* 
      
 
 2. Phyloegetic tree... 
@@ -64,10 +64,8 @@
 
 
 
-###### Gray boxs for datasources.
-
-###### Yellow boxes for analysis.
-
- ###### Blue boxs for R packages and softwares to process the data.
+###### Gray boxs for datasources
+###### Yellow boxes for analysis
+###### Blue boxs for R packages and softwares to process the data
 
 
