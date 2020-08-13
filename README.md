@@ -8,7 +8,7 @@
 										
 ## Steps for niche analysis :
 
-1. Compiled occurrence records for species. Here we use 2 workflows for this step:
+1. Compiled occurrence records for species. Here we'll use 2 workflows for this step:
 
     - [ ] rocc (https://github.com/saramortara/rocc)  
     - [ ] spocc (https://github.com/ropensci/spocc)
@@ -20,14 +20,14 @@
     - [ ] Remove duplicates  
     - [ ] Specialist check
     
-3. Climatic variables. We use two dataset of climatic variables.
+3. Climatic variables. We'll use two dataset of climatic variables.
  
     - [ ] Paleoclim: http://www.paleoclim.org/ (The most complete and recent data with better resolution)
     - [ ] Chelsa: https://chelsa-climate.org/ 
     
-4. Exploratory Analysis 
+4. Exploratory data analysis 
 
-    - [ ]  Extract environmental values values to point 
+    - [ ]  Extract environmental values of points 
     - [ ]  Build a principal component analysis (PCA)
     - [ ]  Select the most important variables for species
       
@@ -42,11 +42,11 @@
       
  7. nicheEvol
  
-    - [ ] study this package (https://github.com/hannahlowens/nichevol)
+    - [ ] I need to study more this package (https://github.com/hannahlowens/nichevol)
       
-## Steps for molecular analysis  @nicoordax
+## Steps for molecular analysis.  The @nicoordax will do this
 
-1. Compiled sequences from genebank....
+1. Compiled sequences from genebank.... ??? Other sources ??
 
     - [ ] *Lipaugus vociferans*
     - [ ] *Schiffornis tudina*
