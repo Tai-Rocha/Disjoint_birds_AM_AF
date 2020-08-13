@@ -10,8 +10,8 @@
 
 1. Compiled occurrence records for species. Here we'll use 2 workflows for this step:
 
-    - [ ] rocc (https://github.com/saramortara/rocc)  
-    - [ ] spocc (https://github.com/ropensci/spocc)
+    - [x] rocc (https://github.com/saramortara/rocc)  
+    - [x] spocc (https://github.com/ropensci/spocc)
     
 2. Clean occurence (R base funtions)  
 
