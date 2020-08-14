@@ -42,7 +42,7 @@
       
  7. nicheEvol
  
-    - [ ] I need to study more this package (https://github.com/hannahlowens/nichevol)
+    - [ ] I need to study more this package (https://github.com/hannahlowens/nichevol) 
       
 ## Steps for molecular analysis.  The @nicoordax will do this
 
@@ -58,6 +58,7 @@
 
     - [ ] ML and Baeysian Trees (?)
     - [ ] Molecular date (?)
+    - [ ] Biogeobears ?
     
     
      
