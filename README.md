@@ -54,7 +54,7 @@
     - [ ] *Xiphorhynchus guttatoides* 
      
 
-2. Phyloegetic tree... 
+2. Phylogenetic tree... 
 
     - [ ] ML and Baeysian Trees (?)
     - [ ] Molecular date (?)
