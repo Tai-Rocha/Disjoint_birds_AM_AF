@@ -44,7 +44,7 @@
  
     - [ ] I need to study more this package (https://github.com/hannahlowens/nichevol) 
       
-## Steps for molecular analysis.  The @nicoordax will do this
+## Steps for molecular analysis. Ps.:  The @nicoordax will do steps
 
 1. Compiled sequences from genebank.... ??? Other sources ??
 
