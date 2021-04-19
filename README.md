@@ -1,9 +1,10 @@
-#######################################################################################################
-### Title: Disjoint birds of Amazon and Atlantic forests, a biogeography perspective
+##############################################################################################################################################################################################################
+### Title: Amazonian and Atlantic forest connections over time: bird lineages with disjunct distribution as models to test these connections
 ### Author: Tainá Rocha
 ### Repository of niche and molecular analysis for disjoint Amazon and Atlantic forest birds
+### 
 #### Status: In progress
-#######################################################################################################
+##############################################################################################################################################################################################################
 
 										
 ## Steps for niche analysis :
