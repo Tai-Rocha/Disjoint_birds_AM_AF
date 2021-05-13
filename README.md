@@ -11,19 +11,19 @@
 
 1. Compiled occurrence records for species. Here we'll use 2 workflows for this step:
 
-    - [x] rocc (https://github.com/saramortara/rocc)  
+    - [x] Rocc (https://github.com/saramortara/rocc)  
     - [x] spocc (https://github.com/ropensci/spocc)
     
 2. Clean occurence (R base funtions)  
 
-    - [ ] Remove wrong records
-    - [ ] Remove too old records
-    - [ ] Remove duplicates  
+    - [x] Remove wrong records
+    - [x] Remove too old records
+    - [x] Remove duplicates  
     - [ ] Specialist check
     
 3. Climatic variables. We'll use two dataset of climatic variables.
  
-    - [ ] Paleoclim: http://www.paleoclim.org/ (The most complete and recent data with better resolution)
+    - [x] Paleoclim: http://www.paleoclim.org/ (The most complete and recent data with better resolution)
     - [ ] Chelsa: https://chelsa-climate.org/ 
     
 4. Exploratory data analysis 
